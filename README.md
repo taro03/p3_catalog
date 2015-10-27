@@ -24,7 +24,10 @@ From the terminal, run:
 
 This will give you a directory named **p3_catalog** complete with the source code for the flask application, a vagrantfile, and a bootstrap.sh file for installing all of the necessary tools. 
 
-2. Edit the /templates/login/html with your own google and facebook application id
+2. Edit the /templates/login.html with your own google and facebook application id
+
+line 17:    `data-clientid="your google app id"`
+line 63:    `appID:'your facebook app id'`
 
 
 
@@ -37,11 +40,11 @@ This will give you a directory named **p3_catalog** complete with the source cod
 [yourmachine@p3_catalog] python database_setup.py
 [yourmachine@p3_catalog] python lotsofmenus.py
 ```
-5.Start the application
+5. Start the application
 ```bash
 [yourmachine@p3_catalog] python project.py
 ```
-6.Open the web browser and enter
+6. Open the web browser and enter
 ```bash
 http://localhost:5000
 ```
