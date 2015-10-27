@@ -27,6 +27,7 @@ This will give you a directory named **p3_catalog** complete with the source cod
 2. Edit the /templates/login.html with your own google and facebook application id
 
 line 17:    `data-clientid="your google app id"`
+
 line 63:    `appID:'your facebook app id'`
 
 
