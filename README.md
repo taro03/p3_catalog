@@ -37,11 +37,11 @@ This will give you a directory named **p3_catalog** complete with the source cod
 [yourmachine@p3_catalog] python database_setup.py
 [yourmachine@p3_catalog] python lotsofmenus.py
 ```
-5. Start the application
+5.Start the application
 ```bash
 [yourmachine@p3_catalog] python project.py
 ```
-6. Open the web browser and enter
+6.Open the web browser and enter
 ```bash
 http://localhost:5000
 ```
