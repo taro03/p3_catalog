@@ -31,8 +31,17 @@ This will give you a directory named **p3_catalog** complete with the source cod
 ### Usage
 1. Initialize the Vagrant vm via `vagrant up`, which should set up on `localhost:5000`.
 2. Connect to the virtual machine: `vagrant ssh`.
-3 Navigate to the catalog directory: `cd /vagrant/catalog`
-7. (Optional) Run the provided key export shell script: `source ../export_keys.sh`.
-8. Start the server: `python application.py`.
-9. Navigate to it in your browser of choice at `localhost:5000`.  The first-time run of the server will initialize the database with fixture data.
-10. Let me know of any bugs :P
+3. Navigate to the catalog directory: `cd /vagrant/p3_catalog`
+4. Setup the databse and add fake data the the database
+```bash
+[yourmachine@p3_catalog] python database_setup.py
+[yourmachine@p3_catalog] python lotsofmenus.py
+```
+5. Start the application
+```bash
+[yourmachine@p3_catalog] python project.py
+```
+6. Open the web browser and enter
+```bash
+http://localhost:5000
+```
