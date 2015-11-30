@@ -13,7 +13,7 @@ Develop an application that provides a list of items within a variety of categor
 * [vagrant](https://www.vagrantup.com/downloads)
 
 ### Setup
-1. Fetch the Source Code and VM Configuration
+1.Fetch the Source Code and VM Configuration
 
 **Windows:** Use the Git Bash program (installed with Git) to get a Unix-style terminal.  
 **Other systems:** Use your favorite terminal program.
@@ -24,12 +24,15 @@ From the terminal, run:
 
 This will give you a directory named **p3_catalog** complete with the source code for the flask application, a vagrantfile, and a bootstrap.sh file for installing all of the necessary tools. 
 
-2. Edit the /templates/login.html with your own google and facebook application id
+2.Edit the /templates/login.html with your own google and facebook application id
 
 line 17:    `data-clientid="your google app id"`
 
 line 63:    `appID:'your facebook app id'`
 
+Follow below links to know how to create Google and Facebook app id
+- Google app id: https://www.youtube.com/watch?v=8aGoty0VXgw
+- Facebook app id: https://www.youtube.com/watch?v=3FRNU35Km2s
 
 
 ### Usage
