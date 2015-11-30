@@ -36,9 +36,12 @@ Follow below links to know how to create Google and Facebook app id
 
 
 ### Usage
-1.Initialize the Vagrant vm via `vagrant up`, which should set up on `localhost:5000`.
-2.Connect to the virtual machine: `vagrant ssh`.
+1.Initialize the Vagrant vm via `vagrant up`, which should set up on `localhost:5000`
+
+2.Connect to the virtual machine: `vagrant ssh`
+
 3.Navigate to the catalog directory: `cd /vagrant/p3_catalog`
+
 4.Setup the databse and add fake data the the database
 ```bash
 [yourmachine@p3_catalog] python database_setup.py
